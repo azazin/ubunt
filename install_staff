@@ -1,12 +1,12 @@
 #!/bin/bash
 
 
-clear
-function pause(){
-   read -p "$*"
-}
-echo     -e "\033[1m Dear useername, please pay attention, this script must me started with superuser privileges\033[0m"
-pause '"Press ENTER to continue or Ctrl+C to cancel"'
+#<--!clear
+#function pause(){
+#   read -p "$*"
+#}
+#echo     -e "\033[1m Dear useername, please pay attention, this script must me started with superuser privileges\033[0m"
+#pause '"Press ENTER to continue or Ctrl+C to cancel"'
 
 
 sudo aptitude update &&
